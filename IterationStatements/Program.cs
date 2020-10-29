@@ -42,12 +42,12 @@ namespace IterationStatements
 
             // Create a foreach loop
             // Write your variable to the console
-            foreach (var number in numbers)
+            foreach (var listItems in numbers)
             {
-                Console.WriteLine($"{number}");
+                Console.WriteLine($"{listItems}");
             }
 
-            Console.WriteLine($"************");
+            Console.WriteLine($"");
             Console.WriteLine("Decrease:");
 
             // Create a for loop
@@ -61,7 +61,7 @@ namespace IterationStatements
                 {
                     Console.WriteLine($"{i}");
                 }
-                
+
                 // Write to the console "numbers" at index i
             }
         }
